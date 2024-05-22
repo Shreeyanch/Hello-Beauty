@@ -1,0 +1,143 @@
+.image13Icon {
+  width: 436px;
+  position: relative;
+  border-radius: var(--br-9xl);
+  height: 127px;
+  object-fit: cover;
+}
+.helloBeautyAcademy {
+  margin: 0;
+}
+.unisexSalon {
+  margin: 0;
+  font-size: var(--font-size-5xl);
+}
+.helloBeautyAcademyContainer {
+  position: relative;
+  line-height: 130%;
+}
+.formHeader,
+.shareYourTravelsForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.formHeader {
+  align-self: stretch;
+  gap: 15px;
+}
+.shareYourTravelsForm {
+  width: 657px;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative !important;
+  left: auto !important;
+}
+.poweredBy {
+  height: 18px;
+  position: relative;
+  line-height: 130%;
+  font-weight: 300;
+  display: inline-block;
+}
+.letterLogo2 {
+  width: 127px;
+  position: relative;
+  height: 19px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.poweredByParent {
+  width: 1440px;
+  height: 29px;
+  flex-direction: row;
+  gap: var(--gap-11xs);
+}
+.feedback,
+.feedbackInner,
+.poweredByParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feedbackInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-xl) 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.feedback {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  height: 1036px;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 100px;
+  mix-blend-mode: normal;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-limegreen);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1200px) {
+  .helloBeautyAcademyContainer {
+    font-size: var(--font-size-11xl);
+  }
+  .poweredBy {
+    font-weight: 300;
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-mid);
+  }
+  .feedbackInner {
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .shareYourTravelsForm {
+    padding: var(--padding-5xl) 0;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 90%;
+  }
+  .feedbackInner {
+    display: flex;
+  }
+}
+@media screen and (max-width: 420px) {
+  .helloBeautyAcademyContainer {
+    font-size: var(--font-size-11xl);
+  }
+  .shareYourTravelsForm {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 100% !important;
+  }
+  .poweredBy {
+    font-weight: 100;
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-mini);
+  }
+  .letterLogo2 {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .helloBeautyAcademyContainer {
+    font-size: var(--font-size-6xl);
+  }
+}

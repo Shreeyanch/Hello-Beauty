@@ -1,0 +1,114 @@
+.image12Icon {
+  width: 436px;
+  position: relative;
+  border-radius: var(--br-9xl);
+  height: 127px;
+  object-fit: cover;
+}
+.helloBeautyAcademy {
+  margin: 0;
+}
+.unisexSalon {
+  margin: 0;
+  font-size: var(--font-size-5xl);
+}
+.helloBeautyAcademyContainer {
+  position: relative;
+  line-height: 130%;
+}
+.modalWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.poweredBy {
+  height: 18px;
+  position: relative;
+  line-height: 130%;
+  font-weight: 300;
+  display: inline-block;
+}
+.letterLogo2 {
+  width: 121px;
+  position: relative;
+  height: 23px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+  cursor: pointer;
+}
+.poweredByParent {
+  width: 1440px;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  padding: var(--padding-xl) 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.frameWrapper,
+.image12Parent,
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image12Parent {
+  align-self: stretch;
+  padding: 100px 0;
+  gap: 20px;
+}
+.rating {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  height: 954px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-limegreen);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1200px) {
+  .helloBeautyAcademyContainer {
+    font-size: var(--font-size-11xl);
+  }
+  .poweredBy {
+    font-weight: 300;
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-mid);
+  }
+}
+@media screen and (max-width: 420px) {
+  .helloBeautyAcademyContainer {
+    font-size: var(--font-size-11xl);
+  }
+  .poweredBy {
+    font-weight: 100;
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-mini);
+  }
+  .letterLogo2 {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .helloBeautyAcademyContainer {
+    font-size: var(--font-size-6xl);
+  }
+  .modalWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
